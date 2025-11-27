@@ -10,9 +10,10 @@
 <body>
     <header>
         <div class="header-container">
-            <div class="logo">
-                <img src="images/logo.png" alt="イタリアン CIT ロゴ">
-            </div>
+            <a href="index.html" class="logo">
+                CIT
+                <span class="logo-subtitle">Italian Restaurant</span>
+            </a>
             <nav>
                 <ul>
                     <li><a href="index.html">ホーム</a></li>
@@ -24,7 +25,7 @@
         </div>
     </header>
 
-    <div class="hero">
+    <div class="hero" style="background-image: linear-gradient(rgba(44, 24, 16, 0.6), rgba(44, 24, 16, 0.6)), url('images/ワインと人気メニュー.jpg');">
         <h1>メニュー</h1>
         <p>旬の食材を使ったコスパ最高の美味しい料理</p>
     </div>
@@ -32,9 +33,10 @@
     <div class="container">
         <h2 class="section-title">前菜・アンティパスト</h2>
         
+        <!-- グリッドレイアウト: 3カラム -->
         <div class="grid grid-3">
             <div class="card">
-                <img src="images/bread-olive.jpg" alt="お通しのパン">
+                <img src="images/お通しのパンとオリーブオイル.jpg" alt="お通しのパン">
                 <div class="card-content">
                     <h3>お通しのパンとオリーブオイル</h3>
                     <p>焼きたてのパンと香り高いオリーブオイル</p>
@@ -42,7 +44,7 @@
             </div>
             
             <div class="card">
-                <img src="images/prosciutto.jpg" alt="生ハム">
+                <img src="images/生ハム.jpg" alt="生ハム">
                 <div class="card-content">
                     <h3>生ハム盛り合わせ</h3>
                     <p>厳選された生ハムの盛り合わせ</p>
@@ -50,7 +52,7 @@
             </div>
             
             <div class="card">
-                <img src="images/pate.jpg" alt="パテ">
+                <img src="images/パテドカンパーニュ.jpg" alt="パテ">
                 <div class="card-content">
                     <h3>パテドカンパーニュ</h3>
                     <p>自家製の濃厚なパテ</p>
@@ -58,7 +60,7 @@
             </div>
             
             <div class="card">
-                <img src="images/caprese.jpg" alt="カプレーゼ">
+                <img src="images/トマトとモッツァレラチーズ.jpg" alt="カプレーゼ">
                 <div class="card-content">
                     <h3>トマトとモッツァレラチーズ</h3>
                     <p>新鮮なトマトとクリーミーなモッツァレラ</p>
@@ -66,7 +68,7 @@
             </div>
             
             <div class="card">
-                <img src="images/salad.jpg" alt="サラダ">
+                <img src="images/フレッシュなサラダ.jpg" alt="サラダ">
                 <div class="card-content">
                     <h3>フレッシュサラダ</h3>
                     <p>旬の野菜をたっぷり使ったサラダ</p>
@@ -74,7 +76,7 @@
             </div>
             
             <div class="card">
-                <img src="images/garlic-toast-wine.jpg" alt="ガーリックトースト">
+                <img src="images/ガーリックトーストとワイン.jpg" alt="ガーリックトースト">
                 <div class="card-content">
                     <h3>ガーリックトースト</h3>
                     <p>香ばしいガーリックの香りが食欲をそそる</p>
@@ -84,9 +86,10 @@
 
         <h2 class="section-title">人気メニュー</h2>
         
+        <!-- グリッドレイアウト: 2カラム -->
         <div class="grid grid-2">
             <div class="card">
-                <img src="images/ajillo.jpg" alt="アヒージョ">
+                <img src="images/絶品アヒージョ人気メニュ0.jpg" alt="アヒージョ">
                 <div class="card-content">
                     <h3>絶品アヒージョ</h3>
                     <p>エビ、マッシュルーム、ブロッコリーなどをオリーブオイルとガーリックで煮込んだ当店人気No.1メニュー。バゲットとの相性も抜群です。</p>
@@ -94,10 +97,34 @@
             </div>
             
             <div class="card">
-                <img src="images/beef-steak.jpg" alt="国産牛ステーキ">
+                <img src="images/国産牛ステーキ.jpg" alt="国産牛ステーキ">
                 <div class="card-content">
                     <h3>国産牛ステーキ</h3>
                     <p>厳選した国産牛を豪快にグリル。ジューシーで柔らかい肉質が自慢です。わさびと塩でシンプルにお召し上がりください。</p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="images/国産牛ローストビーフオニオンソース.jpg" alt="ローストビーフ">
+                <div class="card-content">
+                    <h3>国産牛ローストビーフ</h3>
+                    <p>オニオンソースと共にお楽しみください。柔らかく仕上げた国産牛のローストビーフです。</p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="images/鴨むね肉のローストオレンジソース.jpg" alt="鴨のロースト">
+                <div class="card-content">
+                    <h3>鴨むね肉のロースト</h3>
+                    <p>オレンジソースが鴨肉の旨みを引き立てます。ワインとの相性も抜群です。</p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="images/豚カシラ肉の柔らかグリル.jpg" alt="豚カシラ肉">
+                <div class="card-content">
+                    <h3>豚カシラ肉の柔らかグリル</h3>
+                    <p>じっくりと焼き上げた豚カシラ肉。驚くほど柔らかい食感をお楽しみください。</p>
                 </div>
             </div>
         </div>
@@ -116,7 +143,7 @@
             <h3>🍺 ビール</h3>
             <p><strong>生ビール</strong> - ¥600</p>
             <p><strong>クラフトビール</strong> - ¥700〜</p>
-            <img src="images/craft-beer.jpg" alt="クラフトビール" style="width: 100%; max-width: 400px; margin-top: 15px; border-radius: 8px;">
+            <img src="images/クラフトビール.jpg" alt="クラフトビール" style="width: 100%; max-width: 400px; margin-top: 15px; border-radius: 8px;">
         </div>
         
         <div class="info-box">
